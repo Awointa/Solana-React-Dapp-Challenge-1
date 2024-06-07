@@ -133,7 +133,7 @@ export default function App() {
         )}
         {provider && walletKey && (
             <div>
-              <p>{/*FOR WALLET ADDRESS*/}</p>
+              <p>{walletKey}</p> {/* Display the wallet address */}
               <button
                 style={{
                   fontSize: "16px",
